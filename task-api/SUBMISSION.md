@@ -48,14 +48,24 @@ All three bugs were exposed through automated tests and fixed.
 
 ## Coverage
 
-Current test results:
+Coverage command:
 
-- Test Suites: 2 passed
-- Tests: 45 passed
-- Statements: 94.03%
-- Branches: 84.33%
-- Functions: 93.10%
-- Lines: 93.43%
+`npm run coverage`
+
+Final result:
+
+```text
+Test Suites: 2 passed, 2 total
+Tests:       45 passed, 45 total
+Snapshots:   0 total
+
+% Stmts: 94.03
+% Branch: 84.33
+% Funcs: 93.10
+% Lines: 93.43
+
+The project meets the required 80%+ coverage target.
+
 
 ## What I Would Test Next
 
